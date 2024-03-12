@@ -15,6 +15,16 @@
     </properties>
 
     <dependencies>
+        <!-- Internal dependency -->
+        <dependency>
+            <groupId>com.tecommerce.app</groupId>
+            <artifactId>app-application</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.tecommerce.app</groupId>
+            <artifactId>app-domain</artifactId>
+        </dependency>
+        <!-- External dependency -->
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>

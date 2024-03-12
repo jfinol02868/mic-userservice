@@ -16,6 +16,9 @@
   <modules>
     <module>app-api-first</module>
     <module>app-initializer</module>
+    <module>app-domain</module>
+    <module>app-application</module>
+    <module>app-infrastructure</module>
   </modules>
 
   <properties>
@@ -34,7 +37,17 @@
       </dependency>
       <dependency>
         <groupId>com.tecommerce.app</groupId>
-        <artifactId>app-initializer</artifactId>
+        <artifactId>app-application</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.tecommerce.app</groupId>
+        <artifactId>app-domain</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.tecommerce.app</groupId>
+        <artifactId>app-infrastructure</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>
