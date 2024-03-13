@@ -10,7 +10,7 @@
   </parent>
 
   <groupId>com.tecommerce.app</groupId>
-  <artifactId>mic-userservice</artifactId>
+  <artifactId>code</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
